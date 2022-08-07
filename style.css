@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#particles-js canvas {
+  position: absolute;
+  z-index: -1;
+}
+
+.navbar {
+  background-color: #ffff;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.b-border {
+  border-bottom: 2px solid #EF5B0C;
+}
+
+
+.orange-text {
+  color: #EF5B0C;
+}
+
+.d-flex {
+  flex-wrap: wrap;
+}
+
+/* CSS 
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "About Me";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}*/
+button.button-57 {
+  padding: 10px 35px;
+  background-color: #ffff;
+  border: 1px solid;
+  border-radius: 1px;
+  font-style: none;
+  color: black;
+}
+
+.button-57 a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.button-57:hover {
+  background-color: black;
+  transition: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 1s;
+}
+
+.button-57:hover>a {
+  color: #ffff;
+}
+
+.about-section {
+  background-color: #ffff;
+}
+
+.about-section .fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  padding: 0 5px;
+  font-size: 22px;
+}
+
+.about-section .fa-brands:hover {
+  color: #EF5B0C;
+  transform: translateY(-5px);
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+
+}
+
+/* skills style */
+.dev-icon {
+  width: 100px;
+  background-color: #fad4c9;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow:
+    0px 6px 13px rgba(0, 0, 0, 0.25);
+
+}
+
+.dev-icon:hover {
+  background-color: #fecabc;
+}
+
+.projects {
+  background-image: url("https://thehassanshaikh.github.io/American-burger/assets/hero-gradient.jpg");
+}
+
+/* footer style */
+footer {
+  background-color: black;
+}
+
+.footer-text {
+  color: #ffff;
+}
+
+footer .fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  padding: 0 5px;
+  font-size: 22px;
+  color: #ffff;
+}
+
+footer .fa-brands:hover {
+  color: #EF5B0C;
+  transform: translateY(-5px);
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+
+}
+
+.after-footer p {
+  padding: 0;
+  margin: 0;
+}
+
+.after-footer a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+
+.after-footer {
+  background-color: #EF5B0C;
+  color: white;
+}
