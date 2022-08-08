@@ -7,6 +7,7 @@
 
 #particles-js canvas {
   position: absolute;
+  height: 100px;
   z-index: -1;
 }
 
@@ -31,70 +32,6 @@
   flex-wrap: wrap;
 }
 
-/* CSS 
-.button-57 {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid #18181a;
-  color: #18181a;
-  display: inline-block;
-  font-size: 15px;
-  line-height: 15px;
-  padding: 18px 18px 17px;
-  text-decoration: none;
-  cursor: pointer;
-  background: #fff;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-57 span:first-child {
-  position: relative;
-  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
-  z-index: 10;
-}
-
-.button-57 span:last-child {
-  color: white;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
-  z-index: 100;
-  opacity: 0;
-  top: 50%;
-  left: 50%;
-  transform: translateY(225%) translateX(-50%);
-  height: 14px;
-  line-height: 13px;
-}
-
-.button-57:after {
-  content: "About Me";
-  position: absolute;
-  bottom: -50%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  background-color: black;
-  transform-origin: bottom center;
-  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
-  transform: skewY(9.3deg) scaleY(0);
-  z-index: 50;
-}
-
-.button-57:hover:after {
-  transform-origin: bottom center;
-  transform: skewY(9.3deg) scaleY(2);
-}
-
-.button-57:hover span:last-child {
-  transform: translateX(-50%) translateY(-100%);
-  opacity: 1;
-  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
-}*/
 button.button-57 {
   padding: 10px 35px;
   background-color: #ffff;
@@ -120,9 +57,9 @@ button.button-57 {
   color: #ffff;
 }
 
-.about-section {
+/* .about-section {
   background-color: #ffff;
-}
+} */
 
 .about-section .fa-brands,
 .fab {
@@ -153,11 +90,49 @@ button.button-57 {
 }
 
 .dev-icon:hover {
-  background-color: #fecabc;
+  background-color: #f88667;
+  transform: scale(1.1);
+  transition:ease;
+  transition: 0.23s;
+
 }
 
 .projects {
   background-image: url("https://thehassanshaikh.github.io/American-burger/assets/hero-gradient.jpg");
+}
+
+
+/* Contact style */
+
+input.form-field {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #EF5B0C;
+  border-radius: 5px;
+}
+
+input.form-field.massage {
+  height: 15vh;
+}
+
+.map-container{
+  padding: 3%;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 32.25%;
+  position: relative;
+  height: 0;
+  border-radius: 5px;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /* footer style */
