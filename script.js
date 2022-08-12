@@ -43,3 +43,19 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
 //type effect closed
+
+// dark mode and light mode 
+const options = {
+  label: '🌓', // default: ''
+
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+
+// dark mode and light mode
+function addDarkmodeWidget() {
+  new Darkmode().showWidget();
+}
+window.addEventListener('load', addDarkmodeWidget);
+
