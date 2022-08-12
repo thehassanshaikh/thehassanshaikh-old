@@ -5,6 +5,25 @@
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none!important;
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0%{
+    background-color: hsl(200,20%, 70%);
+  }
+  100% {
+    background-color: hsl(200,20%, 95%);
+  }
+}
+
+
+
 #particles-js canvas {
   position: absolute;
   height: 100px;
@@ -20,11 +39,13 @@
 }
 
 .b-border {
+  isolation: isolate;
   border-bottom: 2px solid #EF5B0C;
 }
 
 
 .orange-text {
+  isolation: isolate;
   color: #EF5B0C;
 }
 
@@ -102,19 +123,77 @@ button.button-57 {
 }
 
 
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+
+a.portfolio-btn {
+  font-size: 14px;
+  background-color: #EF5B0C;
+  color: #ffff;
+
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.portfolio-btn:hover{
+  transition: ease-in;
+  transition: 0.8s;
+  background-color: #d84c00;
+  color: #ffff;
+}
+
 /* Contact style */
 
 input.form-field {
   width: 100%;
   padding: 10px;
   margin: 8px 0;
-  border: 1px solid #EF5B0C;
   border-radius: 5px;
+}
+
+input.form-field {
+  isolation: isolate;
+  border: 1px solid #EF5B0C;
 }
 
 input.form-field.massage {
   height: 15vh;
 }
+
+button.form-btn {
+  isolation: isolate;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #ef5b0c;
+  color: #ef5b0c;
+  font-weight: 400;
+  border-radius: 3px;
+}
+
+button.form-btn:hover {
+  isolation: isolate;
+background-color: #EF5B0C;
+color: #ffff;
+}
+
 
 .map-container{
   padding: 3%;
@@ -173,6 +252,7 @@ footer .fa-brands:hover {
 
 
 .after-footer {
+  isolation: isolate;
   background-color: #EF5B0C;
   color: white;
 }
