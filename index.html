@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Dev icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Dark mode and light mode -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 </head>
 
 <body>
@@ -53,7 +55,7 @@
     <!------- Hero Section -------->
     <section class="hero-section">
         <div class="container d-flex flex-column justify-content-center align-items-center text-center">
-            <img class="rounded-circle w-25 pt-4"
+            <img class="rounded-circle w-25 pt-4 "
                 src=" https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
                 alt="">
 
@@ -80,60 +82,38 @@
             </div>
             <div class="social-icons pt-4">
                 <i class="fa-brands fa-facebook"><a href="#"></a></i>
-                <i class="fa-brands fa-instagram"><a href="#"></a></i>
-                <i class="fa-brands fa-twitter"><a href="#"></a></i>
-                <i class="fa-brands fa-linkedin"><a href="#"></a></i>
-                <i class="fa-brands fa-pinterest"><a href="#"></a></i>
-                <i class="fa-brands fa-telegram"><a href="#"></a></i>
-                <i class="fa-brands fa-github"><a href="#"></a></i>
+                <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/aifshaikh/"></a></i>
+                <i class="fa-brands fa-twitter"><a href="https://twitter.com/thehasanshaikh"></a></i>
+                <i class="fa-brands fa-linkedin"><a href="https://in.linkedin.com/in/hassan-shaikh-8873a3179"></a></i>
+                <i class="fa-brands fa-pinterest"><a href="https://in.pinterest.com/aifshaikh90/"></a></i>
+                <i class="fa-brands fa-github"><a href="https://github.com/thehassanshaikh"></a></i>
             </div>
         </div>
     </section>
     <!----- Skills Section ----->
     <section id="skills" class="skill-section pt-5">
-        <div class="container ">
+        <div class="container pt-5 ">
             <h1 id="skills" class="skills d-flex justify-content-center align-items-center fw-bold">Skill<span
                     class="orange-text">s</span></h1>
 
             <div class=" d-flex flex-column">
 
                 <div class="skill-icons d-flex flex-row justify-content-evenly pt-4 ">
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" />
-
-                    <img class="dev-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
-
+                    <img class="dev-icon " src="assets/icons/html.webp" />
+                    <img class="dev-icon" src="assets/icons/css.webp" />
+                    <img class="dev-icon" src="assets/icons/bootstrap.webp" />
+                    <img class="dev-icon" src="assets/icons/javascript.webp" />
+                    <img class="dev-icon" src="assets/icons/jquery.webp" />
+                    <img class="dev-icon" src="assets/icons/php.webp" />
                 </div>
                 <div class="skill-icons d-flex flex-row  justify-content-evenly pt-4 ">
 
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-
-
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" />
-
-
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
-
-                    <img class="dev-icon"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                    <img class="dev-icon" src="assets/icons/tailwind.webp" />
+                    <img class="dev-icon" src="assets/icons/node-js.webp" />
+                    <img class="dev-icon" src="assets/icons/npm.webp" />
+                    <img class="dev-icon" src="assets/icons/mysql.webp" />
+                    <img class="dev-icon" src="assets/icons/wordpress.webp" />
+                    <img class="dev-icon" src="assets/icons/github.webp" />
                 </div>
 
             </div>
@@ -141,43 +121,90 @@
     </section>
 
     <!------- Project Section ------->
-    <section class="projects-section">
+    <section class="projects-section pt-5">
         <div class=" container d-flex flex-column justify-content-center align-items-center pt-5 ">
             <h1 id="projects" class="projects fw-bold">Project'<span class="orange-text">s</span></h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card-container pt-4 ">
+                        <div class="card ">
+                            <img class="card-img" src="assets/porfolio/american-burger.png" alt="">
+                            <div class="overlay">
+                                <p class="orange-text fw-bold">Amarican Burger</p>
+                                <p class="fs-6">HTML template for restorent and fast food business owner</p>
+                                <a class="portfolio-btn" href="https://thehassanshaikh.github.io/American-burger/"
+                                    target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-container pt-4">
+                        <div class="card ">
+                            <img class="card-img" src="assets/porfolio/dice-game.png" alt="">
+                            <div class="overlay">
+                                <p class="orange-text fw-bold">Dice Game</p>
+                                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium
+                                    voluptatem porro ab nemo</p>
+                                <a class="portfolio-btn" href="https://thehassanshaikh.github.io/dice-game/"
+                                    target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-container pt-4">
+                        <div class="card ">
+                            <img class="card-img" src="assets/porfolio/drum-kit.png" alt="">
+                            <div class="overlay">
+                                <p class="orange-text fw-bold">Musical Drum kit</p>
+                                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium
+                                    voluptatem porro ab nemo</p>
+                                <a class="portfolio-btn" href="https://thehassanshaikh.github.io/drum-kit/"
+                                    target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- contact section  -->
-    <section class="contact-section">
+    <section class="contact-section pt-5">
         <div class=" container pt-5 ">
             <div class="d-flex flex-column justify-content-center align-items-center ">
                 <h1 id="contact" class="contact fw-bold">Contac<span class="orange-text">t</span></h1>
             </div>
             <div class="row border-warning">
                 <div class="col-lg-6 col-md-6 col-s-m12 pt-4">
-                    <div class="form-container">
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-field" placeholder="Name" aria-label="Name">
-                            </div>
-                            <div class="col">
-                                <input type="email" class="form-field" placeholder="Email" aria-label="Email">
+                    <form action="">
+                        <div class="form-container">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-field" placeholder="Name" aria-label="Name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-field" placeholder="Email" aria-label="Email">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <input type="textarea" class="form-field massage" placeholder="Message" aria-label="Massage">
-                    
+                        <input type="textarea" class="form-field massage" placeholder="Message" aria-label="Massage">
+                        <button class="form-btn" type="submit">Send Massage <i class="fa-light fa-paper-plane-top"></i></button>
+                    </form>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 pt-4 map-container">
                     <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.6433316995!2d72.74110164499716!3d19.082522317787305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1659966375839!5m2!1sen!2sin" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.6433316995!2d72.74110164499716!3d19.082522317787305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1659966375839!5m2!1sen!2sin"
+                            width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
-    <footer>
+    <!-- <footer>
         <div class="container d-flex flex-column align-items-center justify-content-center pt-3">
             <h6 class="footer-text">Thehasanshaikh@gmail.com</h6>
             <div class="footer-social-icons pt-3">
@@ -190,7 +217,7 @@
                 <i class="fa-brands fa-github"><a href="#"></a></i>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- ------ After footer ----- -->
     <div class="after-footer d-flex flex-column align-items-center justify-content-center ">
         <p>Design With <i class="fa-solid fa-heart"></i> By <a href="#">&nbsp;Hassan Shaikh</a></p>
