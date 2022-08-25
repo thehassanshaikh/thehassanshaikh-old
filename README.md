@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @thehassanshaikh
-- 👀 I’m interested in FrontEnd Development
-- 🌱 I’m currently learning PHP
-- 💞️ I’m looking to collaborate on PHP basic project
+- 👀 I’m interested in Full stack development & Designing
+- 🌱 I’m currently learning Javascript
+- 💞️ Open for collabration on js projects
 - 📫 How to reach me thehasanshaikh@gmail.com
 
 <!---
