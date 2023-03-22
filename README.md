@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @thehassanshaikh
 - 👀 I’m interested in Full stack Development & Designing
-- 🌱 I’m currently learning MERN
+- 🌱 I’m currently learning MERN stack
 - 💞️ Open for collabration on js projects
 - 📫 How to reach me thehasanshaikh@gmail.com
 
