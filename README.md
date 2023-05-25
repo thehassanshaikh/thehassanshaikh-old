@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @thehassanshaikh
+- 👋 Hi, I’m Mohammad Hassan
 - 👀 I’m interested in Full stack Development & Designing
 - 🌱 I’m currently learning MERN stack
 - 💞️ Open for collabration on js projects
